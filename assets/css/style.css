@@ -1,28 +1,23 @@
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    overflow-x: hidden;
-    background-color: #1E5050;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Nova+Square&family=Playpen+Sans:wght@500&family=Titillium+Web:wght@300&display=swap');
-
+/* Asterisk wildcard selector to override default styles added by the browser */
 
 
 html {
     scroll-behavior: smooth;
 }
+
 
 body {
     font-family: 'Titillium Web', sans-serif;
     background-color: #1E5050;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    overflow-x: hidden;
+
+
 }
+
 
 
 .site-inner {
@@ -42,20 +37,32 @@ body {
 
 .site-nav {
     color: white;
-}
-
-.site-nav ul li a {
-    color: white;
-}
-
-#social-media {
-    color: #1E5050;
-    background-color: white;
-    margin-top: 750px;
-    height: 50px;
-}
-
-#social-media ul {
     text-align: center;
 }
 
+.site-nav ul li {}
+
+.site-nav ul a {
+    color: white;
+}
+
+.welcome {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+
+footer {
+    background-color: white;
+    height: 50px;
+    margin-top: 700px;
+    text-align: center;
+}
+
+.vinyl {
+    margin-top: -600px;
+    margin-left: 600px;
+}
