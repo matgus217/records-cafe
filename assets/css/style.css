@@ -66,3 +66,42 @@ footer {
     margin-top: -600px;
     margin-left: 600px;
 }
+
+
+#iced-coffee {
+    color: white;
+    margin-left: 100px;
+}
+
+.coffee-items {
+    background: url("../images/pexels-miguel-á-padriñán-3391930.jpg")no-repeat center center/cover;
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    color: white;
+    padding-left: 100px;
+    margin-left: 100px:
+}
+
+
+#hot-coffee {
+    padding-left: 950px;
+    color: white
+}
+
+
+
+.hot-coffee-items {
+    background: url("../images/pexels-anton-h-145707.jpg") no-repeat center center/cover;
+    position: relative;
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+
+}
+
+.drink-image {
+    height: 1px;
+    width: 1px;
+}
