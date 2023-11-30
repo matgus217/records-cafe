@@ -58,7 +58,7 @@ body {
 footer {
     background-color: white;
     height: 50px;
-    margin-top: 700px;
+    margin-top: 600px;
     text-align: center;
 }
 
@@ -101,7 +101,15 @@ footer {
 
 }
 
-.drink-image {
-    height: 1px;
-    width: 1px;
+#warm-sandwiches {
+    height: 100px;
+    margin-left: 2px;
+    color: white;
+}
+
+#sweets {
+    height: 100px;
+    margin-top: 100px;
+    color: white;
+
 }
