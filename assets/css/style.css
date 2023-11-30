@@ -47,3 +47,14 @@ body {
 .site-nav ul li a {
     color: white;
 }
+
+#social-media {
+    color: #1E5050;
+    background-color: white;
+    margin-top: 750px;
+    height: 50px;
+}
+
+#social-media ul {
+    text-align: center;
+}
