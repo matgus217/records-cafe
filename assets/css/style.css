@@ -6,7 +6,7 @@ html {
     scroll-behavior: smooth;
 }
 
-
+/* Body style */
 body {
     font-family: 'Titillium Web', sans-serif;
     background-color: #1E5050;
@@ -19,7 +19,7 @@ body {
 }
 
 
-
+/* Site styles */
 .site-inner {
     background-color: white;
     color: #099;
@@ -54,7 +54,7 @@ body {
 
 
 
-
+/* Footer style */
 footer {
     background-color: white;
     height: 50px;
@@ -62,6 +62,7 @@ footer {
     text-align: center;
 }
 
+/* Video style */
 .vinyl {
     margin-top: -600px;
     margin-left: 490px;
@@ -72,7 +73,7 @@ footer {
     margin-left: 490px;
 }
 
-
+/* Menu styles */
 #iced-coffee {
     color: white;
     margin-left: 100px;
@@ -137,7 +138,7 @@ footer {
     border-radius: 15px;
 }
 
-
+/* About styles */
 #about {
     text-align: center;
     color: white;
@@ -148,7 +149,7 @@ footer {
     color: white;
 }
 
-
+/* images styles */
 .img {
     margin-left: 200px;
 }
