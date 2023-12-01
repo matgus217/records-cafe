@@ -48,11 +48,45 @@
 
     <main>
         <section id="about">
-            <h2>Who Are We?</h2>
-        </main>
+            <h2>Who Are We? <i class="fa-regular fa-face-smile"></i></h2>
+       <h4>
+        We are located in the city of Gothenburg.</br>
+        Andra Långgatan 30, Gothenburg,Sweden</br>
+        Phone: 000-00000<br />
+        Email: record.cafe@gmail.com
+    </h4>
+
+    <h4>Reservation:</h4>
+    <p>
+        Type in your name and email or number<br />
+        and we will contact you to make the reservation:
+    </p>
+     </section>
+     </main>
 
 
-<footer id="social-media">
+        <div id="reservation">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <label for="name-field" class="block-label">Name:</label>
+                <input id="name-field" type="text" name="full_name" placeholder="Your name" required /><br />
+        
+                <label for="email-field" class="block-label">Email:</label>
+                <input id="email-field" type="email" name="email" placeholder="Your email" required /><br />
+        
+                <label id="phone-number"> Phone-number:</label><br />
+                <input type="number" class="form-control" id="exampleInputphoneNumber1" placeholder="Phone-number" /><br />
+        
+                <button type="submit" class="button" aria-label="submit">Send</button>
+        
+                <br />
+            </form>
+        </div>
+        </div>
+
+
+
+
+        <footer id="social-media">
     <ul>
 
         <a href="https://www.facebook.com/" target="_blank" rel="noopener"
@@ -65,6 +99,10 @@
 
     </ul>
 </footer>
+<!--Backgrond Video-->
+<div class="vinyl2">
+    <video autoplay="" muted="" loop="" id="vinyl-video" style="width:950px; height: 550px;">
+        <source src="assets/video/video (1080p).mp4">
 
     
 </body>

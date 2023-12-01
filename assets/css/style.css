@@ -64,7 +64,12 @@ footer {
 
 .vinyl {
     margin-top: -600px;
-    margin-left: 500px;
+    margin-left: 490px;
+}
+
+.vinyl2 {
+    margin-top: -600px;
+    margin-left: 490px;
 }
 
 
@@ -78,7 +83,7 @@ footer {
     position: relative;
     height: 400px;
     width: 400px;
-    border-radius: 10px;
+    border-radius: 15px;
     color: white;
     padding-left: 100px;
     margin-left: 100px:
@@ -102,16 +107,34 @@ footer {
 }
 
 #warm-sandwiches {
-    height: 100px;
-    margin-left: 2px;
+    margin-left: 150px;
+    margin-top: 200px;
     color: white;
+
+}
+
+.sandwiches-items {
+    background: url("../images/pexels-miguel-á-padriñán-3391930.jpg") no-repeat center center/cover;
+    position: relative;
+    height: 400px;
+    width: 450px;
+    border-radius: 15px;
 }
 
 #sweets {
-    height: 100px;
-    margin-top: 100px;
+    margin-left: 1000px;
+    margin-top: 200px;
     color: white;
 
+
+}
+
+.sweets-items {
+    background: url("../images/pexels-dids-1653090.jpg")no-repeat center center/cover;
+    position: relative;
+    height: 400px;
+    width: 450px;
+    border-radius: 15px;
 }
 
 
@@ -120,8 +143,22 @@ footer {
     color: white;
 }
 
+#reservation {
+    text-align: center;
+    color: white;
+}
+
+
 .img {
-    margin-left: 950px;
-    margin-top: 100px;
-    border-radius: 15px;
+    margin-left: 200px;
+}
+
+.img2 {
+    margin-left: 1000px;
+    margin-top: 200px;
+}
+
+.img3 {
+    margin-left: 1000px;
+    margin-top: 200px;
 }
