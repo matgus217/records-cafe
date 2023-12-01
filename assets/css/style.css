@@ -40,7 +40,7 @@ body {
     text-align: center;
 }
 
-.site-nav ul li {}
+
 
 .site-nav ul a {
     color: white;
@@ -118,4 +118,10 @@ footer {
 #about {
     text-align: center;
     color: white;
+}
+
+.img {
+    margin-left: 950px;
+    margin-top: 100px;
+    border-radius: 15px;
 }
