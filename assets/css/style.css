@@ -87,7 +87,7 @@ footer {
     border-radius: 15px;
     color: white;
     padding-left: 100px;
-    margin-left: 100px:
+    margin-left: 100px;
 }
 
 
@@ -167,7 +167,7 @@ footer {
 /* Media */
 @media (max-width: 991px) {
 
-    body {}
+
 
 
     .img {
@@ -190,6 +190,7 @@ footer {
     .coffee-items {
         width: 150px;
         height: 190px;
+        margin-left: -100px;
     }
 
     .hot-coffee-items {
@@ -200,6 +201,13 @@ footer {
     #hot-options-coffee {
         margin-left: -800px;
     }
+
+
+    #iced-coffee {
+        margin-right: -1px;
+    }
+
+    #options-coffee {}
 
     .sandwiches-items {
         width: 150px;
