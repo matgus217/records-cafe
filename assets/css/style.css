@@ -163,3 +163,55 @@ footer {
     margin-left: 1000px;
     margin-top: 200px;
 }
+
+/* Media */
+@media (max-width: 991px) {
+
+    body {}
+
+
+    .img {
+        display: none;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .img3 {
+        display: none;
+    }
+
+    .vinyl,
+    .vinyl2 {
+        display: none;
+    }
+
+    .coffee-items {
+        width: 150px;
+        height: 190px;
+    }
+
+    .hot-coffee-items {
+        width: 150px;
+        height: 160px;
+    }
+
+    #hot-options-coffee {
+        margin-left: -800px;
+    }
+
+    .sandwiches-items {
+        width: 150px;
+        height: 190px;
+    }
+
+    .sweets-items {
+        width: 150px;
+        height: 190px;
+    }
+
+    #sweets-coffee {
+        margin-left: -900px;
+    }
+}
