@@ -1,117 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-
-    <link rel="stylesheet" href="assets/css/style.css" >
-    <script src="https://kit.fontawesome.com/032f9bfe1a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/032f9bfe1a.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!--favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/android-chrome-192x192.png" >
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" >
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" >
-    <link rel="manifest" href="assets/favicon/site.webmanifest" >
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
 
     <title>Records Cafe</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- Site Header -->
-    
+
     <header>
-    <div class="site-header">
+      <div class="site-header">
         <div class="site-inner">
-            <i class="fa-solid fa-record-vinyl"></i>
-            <a href="index.html">
-                <h1 id="logo" aria-label="Logo leading home">Records Cafe</h1>
-            </a>
+          <i class="fa-solid fa-record-vinyl"></i>
+          <a href="index.html">
+            <h1 id="logo" aria-label="Logo leading home">Records Cafe</h1>
+          </a>
         </div>
-    </div>
+      </div>
 
-    <nav class="site-nav">
+      <nav class="site-nav">
         <ul>
-            <li>
-                <a href="drink.html" aria-label="drink">Drink Menu</a>
-                <i class="fa-solid fa-mug-saucer"></i>
-            </li>
-            <li>
+          <li>
+            <a href="drink.html" aria-label="drink">Drink Menu</a>
+            <i class="fa-solid fa-mug-saucer"></i>
+          </li>
+          <li>
             <a href="food.html" aria-label="food">Food Menu</a>
-                <i class="fa-solid fa-utensils"></i>
-            </li>
-            <li>
+            <i class="fa-solid fa-utensils"></i>
+          </li>
+          <li>
             <a href="about.html" aria-label="about" class="active">About</a>
-                <i class="fa-solid fa-circle-info"></i>
-            </li>
+            <i class="fa-solid fa-circle-info"></i>
+          </li>
         </ul>
-    </nav>
+      </nav>
     </header>
-<!--main-->
+    <!--main-->
     <main>
-        <section id="about">
-            <h2>Who Are We? <i class="fa-regular fa-face-smile"></i></h2>
-       <h4>
-        <br>We are located in the city of Gothenburg.</br>
-        <br>Andra Långgatan 20, Gothenburg,Sweden. </br>
-        <br>Phone: 000-00000.</br>
-        <br>Email: record.cafe@gmail.com.</br>
-    </h4>
+      <section id="about">
+        <h2>Who Are We? <i class="fa-regular fa-face-smile"></i></h2>
+        <h4>
+          <br />We are located in the city of Gothenburg.<br />
+          <br />Andra Långgatan 20, Gothenburg,Sweden. <br />
+          <br />Phone: 000-00000.<br />
+          <br />Email: record.cafe@gmail.com.<br />
+        </h4>
 
-    <h4>Reservation:</h4>
-    <p>
-        Type in your name and email or number
-        and we will contact you to make the reservation:
-    </p>
-     </section>
-     </main>
+        <h4>Reservation:</h4>
+        <p>
+          Type in your name and email or number and we will contact you to make
+          the reservation:
+        </p>
+      </section>
+    </main>
 
+    <div id="reservation">
+      <form
+        id="signup-form"
+        method="POST"
+        action="https://formdump.codeinstitute.net"
+      >
+        <label for="name-field" class="block-label">Name:</label>
+        <input
+          id="name-field"
+          type="text"
+          name="full_name"
+          placeholder="Your name"
+          required
+        />
 
-        <div id="reservation">
-            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
-                <label for="name-field" class="block-label">Name:</label>
-                <input id="name-field" type="text" name="full_name" placeholder="Your name" required />
-        
-                <label for="email-field" class="block-label">Email:</label>
-                <input id="email-field" type="email" name="email" placeholder="Your email" required />
-        
-                <label id="phone-number"> Phone-number:</label>
-                <input type="number" class="form-control" id="exampleInputphoneNumber1" placeholder="Phone-number" />
-        
-                <button type="submit" class="button" aria-label="submit">Send</button>
-        
-                <br />
-            </form>
-        </div>
-        </div>
+        <label for="email-field" class="block-label">Email:</label>
+        <input
+          id="email-field"
+          type="email"
+          name="email"
+          placeholder="Your email"
+          required
+        />
 
+        <label id="phone-number"> Phone-number:</label>
+        <input
+          type="number"
+          class="form-control"
+          id="exampleInputphoneNumber1"
+          placeholder="Phone-number"
+        />
 
-      <!--footer-->
-
-        <footer id="social-media">
-    <ul>
-        <li>
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-            aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
-       </li>
-
-       <li>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-            aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
-        </li>
-    </ul>
-</footer>
-<!--Backgrond Video-->
-<div class="vinyl2">
-    <video autoplay="" muted="" loop="" id="vinyl-video" style="width:950px; height: 550px;">
-       <source src="assets/video/video (1080p).mp4" type="video/mp4">
-        <p>Your browser does not support the video tag</p>
-      
-    ></video>
+        <button type="submit" class="button" aria-label="submit">Send</button>
+      </form>
     </div>
-    
-</body>
 
+    <!--footer-->
+
+    <footer id="social-media">
+      <ul>
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in new tab)"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in new tab)"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <!--Backgrond Video-->
+    <div class="vinyl2">
+      <video
+        autoplay=""
+        muted=""
+        loop=""
+        id="vinyl-video"
+        style="width: 950px; height: 550px"
+      >
+        <source src="assets/video/video (1080p).mp4" type="video/mp4" />
+        <p>Your browser does not support the video tag</p>
+
+        >
+      </video>
+    </div>
+  </body>
 </html>
