@@ -232,4 +232,19 @@ footer {
     #sweets-coffee {
         margin-left: -900px;
     }
+
+    .site-nav ul li {
+        margin-left: 60px;
+    }
+
+    #social-media ul li {
+        margin-left: -10px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .site-nav ul li {}
+
+    .vinyl {}
 }
