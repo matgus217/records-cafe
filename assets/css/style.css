@@ -46,6 +46,11 @@ body {
     color: white;
 }
 
+.site-nav li {
+    width: 200px;
+    margin-left: 800px;
+}
+
 .welcome {
     color: white;
     text-align: center;
@@ -207,7 +212,7 @@ footer {
         margin-right: -1px;
     }
 
-    #options-coffee {}
+
 
     .sandwiches-items {
         width: 150px;
