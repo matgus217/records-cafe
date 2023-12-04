@@ -67,6 +67,11 @@ footer {
     text-align: center;
 }
 
+#social-media li {
+    width: 100px;
+    margin-left: 800px;
+}
+
 /* Video style */
 .vinyl {
     margin-top: -600px;
