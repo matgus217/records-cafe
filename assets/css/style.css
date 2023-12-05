@@ -73,15 +73,12 @@ footer {
 }
 
 /* Video style */
-.vinyl {
+video {
     margin-top: 50px;
     margin-left: 490px;
 }
 
-.vinyl2 {
-    margin-top: 50px;
-    margin-left: 490px;
-}
+
 
 /* Menu styles */
 #iced-coffee {
@@ -192,8 +189,7 @@ footer {
         display: none;
     }
 
-    .vinyl,
-    .vinyl2 {
+    video {
         display: none;
     }
 
