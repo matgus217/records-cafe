@@ -2,6 +2,8 @@
 
 Records Cafe is a website for a cafe located in Gothenburg, Sweden. The website will help people to find a nice cafe that offers coffee and some food and playes vinyl-records for entertainment. The website is useful to cusomers because they can easily find the menu and it's easy to book a table.
 
+[Live page to the site here:](https://matgus217.github.io/records-cafe/)
+
 ## Existing features
 
 - __Navigation Bar__
@@ -68,8 +70,8 @@ Records Cafe is a website for a cafe located in Gothenburg, Sweden. The website 
 - __HTML__
 - No errors were returned when passing through the official (drink.html page) [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmatgus217.github.io%2Frecords-cafe%2Fdrink.html)
 - No errors were returned when passing through the official (food.html page) [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmatgus217.github.io%2Frecords-cafe%2Ffood.html)
-- No errors were returned when passing through the official (index.html page) [W3C validator]
-- No errors were returned when passing through the official (about.html page) [W3C validator]
+- No errors were returned when passing through the official (index.html page) [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmatgus217.github.io%2Frecords-cafe%2F)
+- No errors were returned when passing through the official (about.html page) [W3C validator](https://matgus217.github.io/records-cafe/about.html)
 
   - __CSS__
 - No errors were returned when passing through the official (index.html page) [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmatgus217.github.io%2Frecords-cafe%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
