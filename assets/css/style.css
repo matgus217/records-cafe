@@ -171,6 +171,11 @@ video {
     margin-top: 200px;
 }
 
+video {
+    margin-top: 50px;
+    margin-left: 550px;
+}
+
 /* Media */
 @media (max-width: 991px) {
 
@@ -189,7 +194,7 @@ video {
         display: none;
     }
 
-    video {
+  video {
         display: none;
     }
 
@@ -245,5 +250,5 @@ video {
 
     }
 
-    .vinyl {}
+    
 }
